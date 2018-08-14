@@ -28,4 +28,15 @@ school = input (" Which educationla institution do you currently attend? ")
 program = input (" Are you in a specialized education program? ")
 comment_weight = input (" You look a bit ... plump. How much do you weigh? ")
 
-print (f"So, let me get this correct. Your name is {y}, you're in {grade} in {school} and you're in the {program}. Right? Also, I'm sorry for asking about your weight, but you looked like you weighed more than {comment_weight}")
+print (f"So, let me get this correct. Your name is {y}, you're in {grade} in {school} and you're in the {program}. Right?")
+print ("Also, I'm sorry for asking about your weight, but you looked like you weighed more than {comment_weight}")
+print ("I hope you can forgive me?")
+
+forgiveness = input().lower()
+
+if forgiveness == "yes":
+  print ("Thank you for your mercy!")
+  print ("This concludes the program")
+else:
+  print ("I'm so terribly sorry. I am now going to shut down regardless because I am a savage!")
+  print ("This concludes the program!")
