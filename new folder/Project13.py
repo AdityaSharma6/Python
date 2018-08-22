@@ -19,11 +19,17 @@ repititions = int(input("How many numbers from the sequence would you like to ha
 
 list1 = [0,1]
 counter = 0
+if repititions == 0:
+    list1.clear()
+    print(list1)
+elif repititions == 1:
+    del list1[0]
+    print(list1)
 
 while counter < repititions:
     list1.append((list1[counter+1]) + (list1[counter]))
     counter += 1
 
-del list1[0]
+
 print(list1)
 
