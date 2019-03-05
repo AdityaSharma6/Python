@@ -1,0 +1,60 @@
+# Name: Aditya Sharma, Abdullah Abdullah
+# MacID: shara24, abdula39
+# Student Number: 400189221, 400181288
+# Date: March 4th 2019
+
+#################################################
+''' 
+Test Case 1:
+
+
+Input Speed: 45
+Level 1 Pitch Diameters: [12,18,36]
+Level 2 Pitch Diameters: [12,13,13,20]
+
+
+Assigned Gear Ratio: 45/9
+Assigned Output Speed: 9
+Assigned First Level Center Distance: 42
+Assigned Second Level Center Distance: 42
+
+
+Calculated Gear Ratio: 5
+Calculated Output Speed: 9
+Calculated First Level Center Distance: 42
+Calculated Second Level Center Distance: 42
+
+
+Gear Ratio Result: PASSED
+Output Speed Result: PASSED
+First Level Center Distance Result: PASSED
+Second Level Center Distance Result: PASSED
+'''
+
+#################################################
+''' 
+Test Case 2:
+
+
+Input Speed: 45
+Level 1 Pitch Diameters: [12,28,46]
+Level 2 Pitch Diameters: [12,23,23,20]
+
+
+Assigned Gear Ratio: 45/9
+Assigned Output Speed: 9
+Assigned First Level Center Distance: 42
+Assigned Second Level Center Distance: 42
+
+
+Calculated Gear Ratio: 6.38
+Calculated Output Speed: 7.04
+Calculated First Level Center Distance: 57
+Calculated Second Level Center Distance: 62
+
+
+Gear Ratio Result: FAILED
+Output Speed Result: FAILED
+First Level Center Distance Result: FAILED
+Second Level Center Distance Result: FAILED
+'''
